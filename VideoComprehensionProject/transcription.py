@@ -1,11 +1,5 @@
-import os
 import io
-import getpass
 from langchain_community.document_loaders import YoutubeLoader
-from langchain_community.llms import huggingface_hub
-from langchain_openai import ChatOpenAI
-from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.output_parsers import StrOutputParser
 import requests
 from bs4 import BeautifulSoup
 
